@@ -1,0 +1,8 @@
+#Program 3: Multiplication Table Using for Loop
+print("Program to Print Multiplication Table of a Number")
+number = int(input("Enter a number to see its multiplication table: "))
+print(f"Multiplication Table of {number}:")
+for i in range(1, 11):
+    print(f"{number} x {i} = {number * i}")
+print("--------------------------------------")
+print("Multiplication table printed successfully")
